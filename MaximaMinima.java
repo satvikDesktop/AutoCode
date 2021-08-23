@@ -3,7 +3,7 @@ public class MaximaMinima {
 
     static Scanner sc = new Scanner(System.in);
     static int count = sc.nextInt();
-    static int arr [] = new int [20] ;
+    static int arr [] = new int [count] ;
     
       
      public static int max(){

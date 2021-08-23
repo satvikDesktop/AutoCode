@@ -13,6 +13,7 @@ public class PrimeFunction {
     }
     public static void main (String[]args) {
     Scanner sc = new Scanner(System.in);
+    System.out.println("Enter number to be checked");
     int num = sc.nextInt();
   System.out.println( isPrime(num));
     sc.close();  

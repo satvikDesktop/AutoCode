@@ -8,8 +8,9 @@ public static void factorial (int num) {
 System.out.println("Factorial is : "+fac);
 }
 
-public static void main () {
+public static void main (String[]args) {
  Scanner sc = new Scanner (System.in);
+ System.out.println("Enter a number");
  int num = sc.nextInt();
   factorial(num);
   sc.close();
