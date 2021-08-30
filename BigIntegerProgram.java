@@ -1,5 +1,5 @@
 import java.math.BigInteger;
-public class specialBigInteger {
+public class BigIntegerProgram {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BigInteger A = new BigInteger("1");   // your number to be  checked
