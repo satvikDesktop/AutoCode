@@ -14,10 +14,15 @@ public class SymbolPattern {
       public static void ArrayMethod(){ 
          char[] line1 = new char[]{ 'A','@','?','>','='};  // originalcharacters
          int initLineLength=line1.length; // initial array length
-         
-        for (int i=0;i<initLineLength;i++){
-              
+         int count=0;
+        for (int i=0;i<initLineLength;i++){ 
+          int k=0;
+          count++;
+        for ( k=0;k<initLineLength+1-count;k++){ 
+              System.out.print(line1[k]);  
         }
+        System.out.println();
+      }
       }
      
   
