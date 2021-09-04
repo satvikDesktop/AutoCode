@@ -1,11 +1,9 @@
 import java.math.BigInteger;
 public class BigIntegerProgram {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		BigInteger A = new BigInteger("1");   // your number to be  checked
 		System.out.println("value choosen :"+A);
 		BigInteger temp = A;
-		
 		BigInteger digit =new BigInteger ("0");
 		int co=0,ten=10;
 		 BigInteger sum= new BigInteger("0");
