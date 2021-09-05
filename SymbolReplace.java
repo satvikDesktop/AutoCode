@@ -29,11 +29,3 @@ public class SymbolReplace {
     
    }
 }
-// line1=line1.replace(toBereplaced,replacer); // replaces character
-            
- // line1 = line1.substring(0, line1.length() - 1); // removes last character
-
- //  for (int i=0;i<initLineLength;i++){
-      //   System.out.println(line1);
-      //    initLineLength--;
-      //  }
