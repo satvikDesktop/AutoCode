@@ -1,16 +1,12 @@
-
-import java.util.Scanner;
 public class test {
-   public static void main (String[]args) {
-      Scanner sc = new Scanner(System.in);
+    public static void main (String[]args){
+        int i=0;
 
-     char ch='x';
-     int  inte=9;
-     float point=0.2f;
-      result = (ch/inte) * (point*inte);
-    System.out.println(result);
-      sc.close();  
+        for (i=0;i<10;i++)
+        System.out.println("hello");
 
-      
-   }
+        for (i=0;i<10;i++)
+        System.out.println("bye");
+    }
 }
+        
