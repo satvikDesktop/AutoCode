@@ -15,7 +15,7 @@ public class PeakFinder {
       }
     }
     for (int k = 0; k < peak.length; k++) {
-       if (peak[k]!=0) // blank indexes in dynamic array are not printed
+       if (peak[k]!=0) 
         System.out.println(peak[k]); 
       }
 
