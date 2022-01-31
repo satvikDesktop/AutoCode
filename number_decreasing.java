@@ -7,5 +7,6 @@ public class number_decreasing {
               System.out.print(j);
             System.out.println();
         }
+        sc.close();
    }
 }

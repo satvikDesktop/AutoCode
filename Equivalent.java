@@ -48,5 +48,6 @@ public class Equivalent {
       ob.sumFactor(n);
       ob.sumFactor(m);
       ob.check();
+      sc.close();
   }
 }
