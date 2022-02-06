@@ -5,13 +5,14 @@ public class vowelsInString {
 
       System.out.println("Enter String");
       String string = sc.nextLine();
-    
-      for (int i=0;i<string.length();i++){
-
-        if (string.charAt(i)=='a' || string.charAt(i)=='e' ||string.charAt(i)=='i' || string.charAt(i)=='o' || string.charAt(i)=='u')
-            System.out.println(string.charAt(i)+" at index "+i);
-
+       int count=0;
+       string=string.toLowerCase();
+      for (int i=0;i<string.length()-1;i++){
+         char charac=string.charAt(i);
+        if (charac =='a' || charac =='e' ||charac =='i' || charac =='o' || charac =='u')
+         count++;
        }
+       System.out.println(count);
       sc.close();  
    }
 }

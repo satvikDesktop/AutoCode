@@ -8,7 +8,10 @@ public class replaceEinString {
 
        string=string.replace('e','*');   
        string=string.replace('E','*');   
-
+        //or
+       //string=string.toLowerCase();
+       //string=string.replace('e','*'); 
+       
        System.out.println(string);
        
       sc.close();  
