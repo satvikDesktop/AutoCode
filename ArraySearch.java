@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ArrayArray {
+public class ArraySearch {
     public static void main (String[]args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter percentage of topper : ");
