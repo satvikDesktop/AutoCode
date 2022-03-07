@@ -5,11 +5,10 @@
 
 - Arrays
 - String functions
-- String patterns
+- Pattern printing
 - Searching , Sorting
 - Number programs (Tech , Special , Fibbonacci etc.)
-- Constructors 
-- Function overloading 
-- GUI
+- Constructors & Function Overloading
+
 
 
