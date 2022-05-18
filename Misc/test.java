@@ -3,10 +3,16 @@ import java.util.Scanner;
 public class test {
    public static void main (String[]args) {
       Scanner sc = new Scanner(System.in);
-      String s1="bruh";
-      String s2="cut";
-      System.out.println(s1.compareTo(s2));
-      System.out.println(s2.compareTo(s1));
-      sc.close();  
+
+      int a[] = { 3, 5, 1, 7, 8 };
+      int x = ++a[2];
+      int y = a[3]++;
+      String s=x + " " + y;
+      System.out.println(s);
+
+      int u=65;
+      u++;
+      System.out.println((char)u);  
+
    }
 }
